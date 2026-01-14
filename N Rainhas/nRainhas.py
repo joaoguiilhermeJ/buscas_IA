@@ -101,7 +101,7 @@ def gulosa_n_rainhas(n):
     return None, expandidos, tempo_total
 
 if __name__ == "__main__":
-    n = 10
+    n = 8
     sol_astar, exp_astar, tempo_astar = a_estrela_n_rainha(n)
     print("A*")
     print("Solução:", sol_astar)
